@@ -1,21 +1,16 @@
-#include<stdio.h>
-int find(int n);
-int main()
-{
-	int n,ans;
-	printf("\n enter n=");
-	scanf("%d",&n);
-	ans=find(n);
+#include<iostream>
+using namespace std;
+
+int add(int a, int b){
+	int x,y,z;
+	x = a;
+	y =b;
+	z = x+y;
+	return z;
 }
-int find(int n)
-{
-	if(n%2==0)
-	{
-		printf("\n number is even");
-	}
-	else
-	{
-		printf("\n number is odd");
-	}
-	
+int main(){
+	int a, b;
+	a = 5;
+	b = 5;
+	cout<<add(a,b);
 }
