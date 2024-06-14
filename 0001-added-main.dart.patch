@@ -1,0 +1,24 @@
+From 563384e3bcddb021411749ec5763eaf492ebeafe Mon Sep 17 00:00:00 2001
+From: mannbhalodiya <mannbhalodiya9@gmail.com>
+Date: Fri, 14 Jun 2024 17:11:29 +0530
+Subject: [PATCH] added main.dart
+
+---
+ main.dart | 4 ++++
+ 1 file changed, 4 insertions(+)
+ create mode 100644 main.dart
+
+diff --git a/main.dart b/main.dart
+new file mode 100644
+index 0000000..72d9824
+--- /dev/null
++++ b/main.dart
+@@ -0,0 +1,4 @@
++void main() {
++  String obj = 'hello';
++  print(obj);
++}
+\ No newline at end of file
+-- 
+2.34.1
+
